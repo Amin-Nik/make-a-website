@@ -3,14 +3,18 @@
 header {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #84dcc6;
     height: 100px;
     position: sticky;
     top: 0;
 }
 
+body {
+    background-color: #d3f8e2;
+}
+
 nav {
-    background-color: #fff;
+    background-color: #a9def9;
     align-self: center;
     font-size: x-large;
     display: flex;
@@ -23,11 +27,48 @@ nav {
     border-radius: 100px;
 }
 
+.blossom img {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+nav a {
+    position: relative;
+    color: black;
+}
+
+nav a:hover .blossom img {
+    display: inline;
+    position: absolute;
+}
+
+nav a:hover .corner {
+    top: -10px;
+    right: -20px;
+}
+
+nav a:hover .top {
+    top: -15px;
+    right: 3px;
+}
+
+nav a:hover .right {
+    top: 10px;
+    right: -25px;
+}
+
+nav a:hover {
+    text-shadow: 1px 0 10px yellowgreen, 0 1px 10px yellowgreen, -1px 0 10px yellowgreen, 0 -1px 10px yellowgreen;
+    color: white;
+}
+
 #description {
     border: 1px solid black;
     border-radius: 10px;
     margin: 50px;
     padding: 20px;
+    background-color: #ffa69e;
 }
 
 p {
@@ -42,22 +83,65 @@ p {
 
 .card {
     border-radius: 10px;
-    background-color: gray;
+    background-color: #fff;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 300px;
+    height: 350px;
     margin: 10px 0;
 }
 
 .card * {
-    margin: 10px 0;
+    margin: 10px 0 0 0;
+}
+
+img {
+    width: 90%;
+    height: 70%;
+}
+
+.spring:hover {
+    background-color: #F7C8E0;
+}
+
+.summer:hover {
+    background-color: #CBE2B0;
+}
+
+.autumn:hover {
+    background-color: #FFD89C;
+}
+
+.winter:hover {
+    background-color: #C2DEDC;
+}
+
+
+.card:hover a{
+    background-color: white;
 }
 
 .card a {
-    background-color: crimson;
+    background-color: white;
     padding: 10px;
     border-radius: 15px;
     color: black;
     font-size: large;
+}
+.spring a{
+    background-color: #F7C8E0;
+}
+
+.summer a{
+    background-color: #CBE2B0;
+}
+
+.autumn a{
+    background-color: #FFD89C;
+}
+
+.winter a{
+    background-color: #C2DEDC;
 }
