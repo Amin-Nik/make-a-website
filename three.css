@@ -59,7 +59,7 @@ nav a:hover .right {
 }
 
 nav a:hover {
-    text-shadow: 1px 0 10px yellowgreen, 0 1px 10px yellowgreen, -1px 0 10px yellowgreen, 0 -1px 10px yellowgreen;
+    text-shadow: 1px 0 10px orange, 0 1px 10px orange, -1px 0 10px orange;
     color: white;
 }
 

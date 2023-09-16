@@ -112,6 +112,9 @@ img{
     margin: 50px;
     border-radius: 10px;
 }
+.goal:hover{
+    box-shadow: 0 0 10px 10px #9D5C0D;
+}
 .goal *{
     margin: 1rem 0;
 }
