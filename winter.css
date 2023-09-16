@@ -28,7 +28,7 @@ nav {
     border-radius: 100px;
 }
 
-.blossom img {
+.snow img {
     width: 20px;
     height: 20px;
     display: none;
@@ -39,7 +39,7 @@ nav a {
     color: black;
 }
 
-nav a:hover .blossom img {
+nav a:hover .snow img {
     display: inline;
     position: absolute;
 }
