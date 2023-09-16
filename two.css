@@ -3,14 +3,18 @@
 header {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #8ea604;
     height: 100px;
     position: sticky;
     top: 0;
 }
 
+body{
+    background-color: #f5bb00;
+}
+
 nav {
-    background-color: #fff;
+    background-color: #ffb627;
     align-self: center;
     font-size: x-large;
     display: flex;
@@ -23,6 +27,42 @@ nav {
     border-radius: 100px;
 }
 
+.blossom img {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+nav a {
+    position: relative;
+    color: black;
+}
+
+nav a:hover .blossom img {
+    display: inline;
+    position: absolute;
+}
+
+nav a:hover .corner {
+    top: -10px;
+    right: -20px;
+}
+
+nav a:hover .top {
+    top: -15px;
+    right: 3px;
+}
+
+nav a:hover .right {
+    top: 10px;
+    right: -25px;
+}
+
+nav a:hover {
+    text-shadow: 1px 0 10px yellowgreen, 0 1px 10px yellowgreen, -1px 0 10px yellowgreen, 0 -1px 10px yellowgreen;
+    color: white;
+}
+
 .container {
     margin: 10px;
     display: flex;
@@ -32,7 +72,7 @@ nav {
 
 .card {
     border-radius: 10px;
-    background-color: gray;
+    background-color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -41,9 +81,23 @@ nav {
     height: 280px;
     margin: 10px 0;
 }
+.card a{
+    background-color: #d76a03;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-size: large;
+}
+.card:hover {
+    background-color: #d76a03;
+}
+
+.card:hover a{
+    background-color: white;
+}
 
 .card * {
-    margin: 10px 0;
+    margin: 10px 0 0 0;
 }
 
 img{
@@ -51,6 +105,7 @@ img{
     height: 60%;
 }
 .goal{
+    background-color: #ffb238;
     border: solid 1px black;
     padding: 20px;
     margin: 50px;
