@@ -82,14 +82,15 @@ nav a:hover {
     margin: 10px 0;
 }
 .card a{
-    background-color: #d76a03;
+    background-color: #D06224;
     padding: 10px;
     border-radius: 15px;
     color: black;
     font-size: large;
 }
 .card:hover {
-    background-color: #d76a03;
+    background-color: #D06224;
+    box-shadow: 0 0 10px 10px #9D5C0D;
 }
 
 .card:hover a{
